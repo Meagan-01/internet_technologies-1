@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CH7: Forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <form action="http://www.google.com/search">
+      <div>
+        Let's search Google:
+        <!-- q happens to be the name of Google's required parameter -->
+        <input type="text" name="q" value="detravious brinkley" />
+        <input type="submit" value="Booyah!" />
+      </div>
+    </form>
+
+    <br />
+    <br />
+
+    <form action="#">
+      <div>
+        Enter your ID and Password: <br />
+        <input type="text" size="10" maxlength="8" /> ID <br />
+        <input type="password" size="16" /> Password <br />
+        <input type="submit" value="Log In" />
+      </div>
+    </form>
+
+    <br />
+    <br />
+
+    <form action="#">
+      <div>
+        Testing the textarea element:
+        <textarea name="testing" cols="30" rows="10">
+            Type your comments here
+        </textarea>
+      </div>
+    </form>
+
+    <br />
+    <br />
+
+    <form action="#">
+      <div>
+        What would you like to work on today:
+        <input type="checkbox" name="Biceps" /> Biceps
+        <input type="checkbox" name="Triceps" /> Triceps
+        <input type="checkbox" name="Shoulders and Traps" /> Shoulders and Traps
+        <input type="checkbox" name="Abs" /> Abs
+        <input type="checkbox" name="Chest" /> Chest
+        <input type="checkbox" name="Legs" checked="checked" /> Legs
+      </div>
+    </form>
+  </body>
+</html>
