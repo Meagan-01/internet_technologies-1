@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>CH7: Forms</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
     <script src="main.js"></script>
   </head>
   <body>
@@ -14,13 +14,12 @@
       <div>
         Let's search Google:
         <!-- q happens to be the name of Google's required parameter -->
-        <input type="text" name="q" value="detravious brinkley" />
+        <input type="text" name="q" value="Fit To Code Detravious Brinkley" />
         <input type="submit" value="Booyah!" />
       </div>
     </form>
 
-    <br />
-    <br />
+
 
     <form action="#">
       <div>
@@ -31,11 +30,10 @@
       </div>
     </form>
 
-    <br />
-    <br />
 
     <form action="#">
       <div>
+        You can type in the text box <br />
         Testing the textarea element:
         <textarea name="testing" cols="30" rows="10">
             Type your comments here
@@ -43,19 +41,41 @@
       </div>
     </form>
 
-    <br />
-    <br />
 
     <form action="#">
       <div>
+        Checkboxes <br />
         What would you like to work on today:
-        <input type="checkbox" name="Biceps" /> Biceps
-        <input type="checkbox" name="Triceps" /> Triceps
-        <input type="checkbox" name="Shoulders and Traps" /> Shoulders and Traps
-        <input type="checkbox" name="Abs" /> Abs
-        <input type="checkbox" name="Chest" /> Chest
-        <input type="checkbox" name="Legs" checked="checked" /> Legs
+        <label><input type="checkbox" name="Biceps" /> Biceps</label>
+        <label><input type="checkbox" name="Triceps" /> Triceps</label>
+        <label><input type="checkbox" name="Shoulders and Traps" /> Shoulders and Traps</label>
+        <label><input type="checkbox" name="Abs" /> Abs</label>
+        <label><input type="checkbox" name="Chest" /> Chest</label>
+        <label><input type="checkbox" name="Legs" checked="checked" /> Legs</label>
       </div>
+    </form>
+
+
+    <form action="#">
+      <div>
+        What is your current weight goal? Would you like to <br />
+        <label><input type="radio" name="goal" value="maintain" /> Maintain</label>
+        <label><input type="radio" name="goal" value="lose" /> Lose</label>
+        <label><input type="radio" name="goal" value="gain" /> Gain</label>
+      </div>
+    </form>
+
+    <form class="" action="index.html" method="post">
+      <section class="section">
+        Select a workout partner <br>
+        <select class="" name="workoutPartner">
+          <option value="">Detravious Brinkley</option>
+          <option value="">Ikenna Ngwu</option>
+          <option value="">Emmanuel Nwosu</option>
+          <option value="">Lance Reese</option>
+        </select>
+      </section>
+
     </form>
   </body>
 </html>
