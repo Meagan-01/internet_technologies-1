@@ -3,7 +3,7 @@
 
 body{
   font-family: Verdana, Geneva, sans-serif;
-  color: #292522;
+  /* color: #292522; */
 }
 
 header{
@@ -17,14 +17,21 @@ a{
   text-decoration: none;
 }
 
-.bio{
+img{
   width: 200px;
   height: 210px;
-  float: right;
+  /* float: right; */
+}
+/* .bio{
+
 }
 
-.sites{
+.sites{ */
 
 }
 
 /* INDEX PAGE */
+/* div{
+  color: white;
+  font
+} */

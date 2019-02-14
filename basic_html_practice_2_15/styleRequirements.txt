@@ -1,3 +1,5 @@
+++ = completed
+
 Style requirements:
 
 **All pages:**
@@ -8,7 +10,7 @@ anchor references should be the color #86B8B1 and have no text decoration
 all pics of yourself (or pics of others that are in place of real images of you) **hint: put them all in a class together **
 	should float right and still be inside of the colored container they are found in
 	should be width 200px and height 210px
-	
+
 
 **index.html:**
 all div text should be the color white:
@@ -22,10 +24,10 @@ The second div showing interesting sites
 	should be on the same row on the opposite side from the bio div
 	should have 10px of space on all sides of the inside of the div
 
-**resume.html:** 
+**resume.html:**
 the table should have 10px of space around all sides
 the border for the table and all table data should be a 2px thick solid black line
-the table header row should have background color #4D6160 and font color #FAF7EB	
+the table header row should have background color #4D6160 and font color #FAF7EB
 the table data should have 3px of space inside of the table cell area
 
 **about.html:**
@@ -36,4 +38,3 @@ the contact form
 	should have background color set to "#EAEBE3"
 	should have a 3px thick border around that is dotted and the color "gray"
 	should have buttons with background colo set to #3D1C00 and font color of white
-	
