@@ -1,0 +1,30 @@
+
+/* ALL PAGES */
+
+body{
+  font-family: Verdana, Geneva, sans-serif;
+  color: #292522;
+}
+
+header{
+  font-family: #4D6160;
+  background-color: #F0D8A8;
+
+}
+
+a{
+  color: #86B8B1;
+  text-decoration: none;
+}
+
+.bio{
+  width: 200px;
+  height: 210px;
+  float: right;
+}
+
+.sites{
+
+}
+
+/* INDEX PAGE */
