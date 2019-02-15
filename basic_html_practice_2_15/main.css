@@ -7,7 +7,7 @@ body{
 }
 
 header{
-  <!--Deleted #4D6160 as font-family value, and replaced with Tahoma, inserted color value.-->
+  /*Deleted #4D6160 as font-family value, and replaced with Tahoma, inserted color value.*/
   font-family: Tahoma;
   color: #4D6160;
   background-color: #F0D8A8;
@@ -20,13 +20,13 @@ a{
 }
 
 
-<!--Added div element, and set text color, etc.-->
+/*Added div element, and set text color, etc.*/
 
 div{
 color: white;
 }
 
-<!--Inserted div attributes for bio and sites-->
+/*Inserted div attributes for bio and sites*/
 
 .bio{
 width: 200px;
