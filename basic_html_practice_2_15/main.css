@@ -1,6 +1,7 @@
 ﻿
 /* ALL PAGES */
 
+<<<<<<< HEAD
 body {
     font-family: Verdana, Geneva, sans-serif;
     color: #292522;
@@ -19,6 +20,17 @@ h2 {
     color: #4D6160;
     background-color: #F0D8A8;
 }
+=======
+body{
+  font-family: Verdana, "Geneva", sans-serif;
+  color: #292522;
+}
+
+header{
+  font-family: Tahoma;
+  color: #4D6160;
+  background-color: #F0D8A8;
+>>>>>>> 8fe8ae4274fcbd460859eb68705eceeda567161c
 
 h3 {
     /*Deleted #4D6160 as font-family value, and replaced with Tahoma, inserted color value.*/
@@ -27,6 +39,7 @@ h3 {
     background-color: #F0D8A8;
 }
 
+<<<<<<< HEAD
 h4 {
     /*Deleted #4D6160 as font-family value, and replaced with Tahoma, inserted color value.*/
     font-family: Tahoma;
@@ -47,12 +60,43 @@ h6 {
     color: #4D6160;
     background-color: #F0D8A8;
 }
+=======
+a{
+  color: #86B8B1;
+  /* no underline when set to none */
+  text-decoration: none;
+}
+
+
+/* INDEX PAGE */
+div{
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.bio{
+  width: 200px;
+  height: 210px;
+  /* float: right; */
+  color: #A09F74;
+}
+
+.sites{
+  color: #EAEBE3;
+}
+
+/* RESUME PAGE */
+table{
+  padding: 10px 10px 10px 10px;
+  border: 2px solid black;
+>>>>>>> 8fe8ae4274fcbd460859eb68705eceeda567161c
 
 a {
     color: #86B8B1;
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 
 /*Added div element, and set text color, etc.*/
 
@@ -126,4 +170,31 @@ form {
 button {
     background-color: #3D1C00;
     color: white;
+=======
+th{
+  background-color: #4D6160;
+  color: #FAF7EB;
+}
+
+td{
+  padding: 3px 3px 3px 3px;
+}
+
+/* ABOUT PAGE */
+form{
+  margin-top: 20px;
+  width: 40%;
+  background-color: #EAEBE3;
+  border: 3px dotted gray;
+
+}
+
+h4{
+  padding: 5px 5px 5px 5px;
+}
+
+button{
+  background-color: #3D1C00;
+  color: white;
+>>>>>>> 8fe8ae4274fcbd460859eb68705eceeda567161c
 }

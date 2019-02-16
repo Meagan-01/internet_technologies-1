@@ -1,39 +1,42 @@
+completed = ++
+not sure if set correctly = --
+
 Style requirements:
 
 **All pages:**
-The body of the page should use the font-family "Verdana, Geneva, sans-serif" and the color should be "#292522"
-The header elements (h1 through h6) should use the font "Tahoma" and the color should be "#4D6160"
+++ The body of the page should use the font-family "Verdana, Geneva, sans-serif" and the color should be "#292522"
+++ The header elements (h1 through h6) should use the font "Tahoma" and the color should be "#4D6160"
 the header area background should be set to color "#F0D8A8"
-anchor references should be the color #86B8B1 and have no text decoration
+++ anchor references should be the color #86B8B1 and have no text decoration
 all pics of yourself (or pics of others that are in place of real images of you) **hint: put them all in a class together **
-	should float right and still be inside of the colored container they are found in
-	should be width 200px and height 210px
+--	should float right and still be inside of the colored container they are found in
+++	should be width 200px and height 210px
 	
 
 **index.html:**
-all div text should be the color white:
+++ all div text should be the color white:
 both divs should be close to half of the web browser width
 The first div with bio information
-	should be set to color "#A09F74"
+++	should be set to color "#A09F74"
 	should be on the left side of the page
-	should have 10px of space on all sides of the inside of the div
+--	should have 10px of space on all sides of the inside of the div
 The second div showing interesting sites
-	should be set to color "#EAEBE3"
+++	should be set to color "#EAEBE3"
 	should be on the same row on the opposite side from the bio div
-	should have 10px of space on all sides of the inside of the div
+--	should have 10px of space on all sides of the inside of the div
 
 **resume.html:** 
-the table should have 10px of space around all sides
-the border for the table and all table data should be a 2px thick solid black line
-the table header row should have background color #4D6160 and font color #FAF7EB	
-the table data should have 3px of space inside of the table cell area
+++ the table should have 10px of space around all sides
+++ the border for the table and all table data should be a 2px thick solid black line
+++ the table header row should have background color #4D6160 and font color #FAF7EB	
+++ the table data should have 3px of space inside of the table cell area
 
 **about.html:**
 the contact form
-	should have 20px of space above the top of the start of the form
-	should have 5px of space inside of the form on all sides
-	width should be 40% of the size of the browser window
-	should have background color set to "#EAEBE3"
-	should have a 3px thick border around that is dotted and the color "gray"
-	should have buttons with background colo set to #3D1C00 and font color of white
+	++ should have 20px of space above the top of the start of the form
+	-- should have 5px of space inside of the form on all sides
+	++ width should be 40% of the size of the browser window
+	++ should have background color set to "#EAEBE3"
+	++ should have a 3px thick border around that is dotted and the color "gray"
+	should have buttons with background color set to #3D1C00 and font color of white
 	
