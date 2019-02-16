@@ -6,42 +6,7 @@ body {
     color: #292522;
 }
 
-h1{
-    /*Deleted #4D6160 as font-family value, and replaced with Tahoma, inserted color value.*/
-    font-family: Tahoma;
-    color: #4D6160;
-    background-color: #F0D8A8;
-}
-
-h2 {
-    /*Deleted #4D6160 as font-family value, and replaced with Tahoma, inserted color value.*/
-    font-family: Tahoma;
-    color: #4D6160;
-    background-color: #F0D8A8;
-}
-
-h3 {
-    /*Deleted #4D6160 as font-family value, and replaced with Tahoma, inserted color value.*/
-    font-family: Tahoma;
-    color: #4D6160;
-    background-color: #F0D8A8;
-}
-
-h4 {
-    /*Deleted #4D6160 as font-family value, and replaced with Tahoma, inserted color value.*/
-    font-family: Tahoma;
-    color: #4D6160;
-    background-color: #F0D8A8;
-}
-
-h5 {
-    /*Deleted #4D6160 as font-family value, and replaced with Tahoma, inserted color value.*/
-    font-family: Tahoma;
-    color: #4D6160;
-    background-color: #F0D8A8;
-}
-
-h6 {
+h1, h2, h3, h4, h5, h6{
     /*Deleted #4D6160 as font-family value, and replaced with Tahoma, inserted color value.*/
     font-family: Tahoma;
     color: #4D6160;
@@ -52,8 +17,6 @@ a {
     color: #86B8B1;
     text-decoration: none;
 }
-
-
 /*Added div element, and set text color, etc.*/
 
 div {
