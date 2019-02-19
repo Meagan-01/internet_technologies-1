@@ -1,6 +1,26 @@
-
+﻿
 /* ALL PAGES */
 
+<<<<<<< HEAD
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #292522;
+}
+
+h1{
+    /*Deleted #4D6160 as font-family value, and replaced with Tahoma, inserted color value.*/
+    font-family: Tahoma;
+    color: #4D6160;
+    background-color: #F0D8A8;
+}
+
+h2 {
+    /*Deleted #4D6160 as font-family value, and replaced with Tahoma, inserted color value.*/
+    font-family: Tahoma;
+    color: #4D6160;
+    background-color: #F0D8A8;
+}
+=======
 body{
   font-family: Verdana, "Geneva", sans-serif;
   color: #292522;
@@ -10,9 +30,37 @@ header{
   font-family: Tahoma;
   color: #4D6160;
   background-color: #F0D8A8;
+>>>>>>> 8fe8ae4274fcbd460859eb68705eceeda567161c
 
+h3 {
+    /*Deleted #4D6160 as font-family value, and replaced with Tahoma, inserted color value.*/
+    font-family: Tahoma;
+    color: #4D6160;
+    background-color: #F0D8A8;
 }
 
+<<<<<<< HEAD
+h4 {
+    /*Deleted #4D6160 as font-family value, and replaced with Tahoma, inserted color value.*/
+    font-family: Tahoma;
+    color: #4D6160;
+    background-color: #F0D8A8;
+}
+
+h5 {
+    /*Deleted #4D6160 as font-family value, and replaced with Tahoma, inserted color value.*/
+    font-family: Tahoma;
+    color: #4D6160;
+    background-color: #F0D8A8;
+}
+
+h6 {
+    /*Deleted #4D6160 as font-family value, and replaced with Tahoma, inserted color value.*/
+    font-family: Tahoma;
+    color: #4D6160;
+    background-color: #F0D8A8;
+}
+=======
 a{
   color: #86B8B1;
   /* no underline when set to none */
@@ -41,9 +89,88 @@ div{
 table{
   padding: 10px 10px 10px 10px;
   border: 2px solid black;
+>>>>>>> 8fe8ae4274fcbd460859eb68705eceeda567161c
 
+a {
+    color: #86B8B1;
+    text-decoration: none;
 }
 
+<<<<<<< HEAD
+
+/*Added div element, and set text color, etc.*/
+
+div {
+    color: white;
+}
+
+img {
+    width: 200px;
+    height: 210px;
+    float: right;
+}
+.pic {
+    transform: rotate(30deg);
+}
+/*Inserted div attributes for bio and sites*/
+.bio {
+    background-color: #A09F74;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 47%;
+    float: left;
+}
+
+
+
+.sites {
+    background-color: #EAEBE3;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width:47%;
+    float: right;
+}
+
+table {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+table, td {
+    border-style: solid;
+    border-width: 2px;
+}
+
+th {
+    background-color: #4D6160;
+    color: #FAF7EB;
+}
+
+td {
+    padding: 3px;
+}
+
+
+form {
+    padding-top: 20px;
+    space: 5px;
+    width: 40%;
+    background-color: #EAEBE3;
+    border-style: dotted;
+    border-color: gray;
+    border-width: 3px;
+}
+
+button {
+    background-color: #3D1C00;
+    color: white;
+=======
 th{
   background-color: #4D6160;
   color: #FAF7EB;
@@ -69,4 +196,5 @@ h4{
 button{
   background-color: #3D1C00;
   color: white;
+>>>>>>> 8fe8ae4274fcbd460859eb68705eceeda567161c
 }
