@@ -18,10 +18,11 @@ h2{
 }
 
 dl{
-  padding-left: 100px;
+  padding-left: 30px;
   pad
 
 }
-#text{
-  
+.bold{
+  font-weight: bold;
+
 }
