@@ -1,0 +1,21 @@
+
+body{
+  background-color: rgb(198, 187, 163);
+
+}
+
+h1{
+  color: rgb(63, 35, 7);
+  background-color: rgb(198, 187, 163);
+  padding: 10px 30px; 
+
+}
+
+h2{
+  color: rgb(93, 14, 7);
+}
+
+dl{
+  padding-left: 100px;
+
+}
