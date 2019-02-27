@@ -18,14 +18,17 @@ h6{
 
 }
 
-p{
-
+.padRight{
+  margin-top: 0px;
+  padding-left: 315px;
 }
 
 .wrong{
   color: red;
   font-weight: bold;
 }
+
+
 
 
 /* italic text in h6 */
