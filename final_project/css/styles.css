@@ -3,7 +3,7 @@ body {
 }
 
 
-.text-center:hover {
+.col-xs-2:hover {
   transform: scale(1.1);
 }
 
@@ -11,6 +11,6 @@ body {
   position: sticky;
 }
 
-/* .col-xs-2{
+.col-xs-2{
   padding-right: 30px;
-} */
+}
