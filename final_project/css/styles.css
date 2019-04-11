@@ -1,5 +1,15 @@
-body {
+/* body {
   background-color: brown;
+  background-image: url('img/FittoCode.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+} */
+
+body, html{
+  height: 100%;
+  margin: 0;
 }
 
 
